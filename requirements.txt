@@ -15,8 +15,8 @@ black>=23.0.0
 flake8>=6.0.0
 mypy>=1.0.0
 
-# Optional: Telegram integration
-# python-telegram-bot>=20.0
+# Telegram integration (optional but recommended)
+python-telegram-bot>=20.0
 
-# Optional: OpenClaw integration
-# openclaw>=0.1.0
+# OpenClaw integration (platform)
+openclaw>=0.1.0
