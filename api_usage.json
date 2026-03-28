@@ -1,0 +1,60 @@
+{
+  "deepseek": {
+    "last_checked": "2026-03-28T01:14:49.785042",
+    "daily_calls": 20,
+    "daily_tokens": 222000,
+    "daily_cost_usd": 0.031080000000000003,
+    "monthly_budget_usd": 100.0,
+    "burn_rate_usd_per_day": 0.6048,
+    "projected_runway_days": 165.3,
+    "alerts": [],
+    "limits": {
+      "rate_limit_per_minute": 60,
+      "rate_limit_per_day": 1000,
+      "tokens_per_minute": 1000000,
+      "tokens_per_day": 10000000
+    }
+  },
+  "openclaw": {
+    "last_checked": "2026-03-27T12:46:00Z",
+    "tool_calls": 28,
+    "sessions_active": 2,
+    "heartbeat_enabled": false,
+    "alerts": []
+  },
+  "tracking": {
+    "start_date": "2026-03-27",
+    "version": "1.0",
+    "update_frequency": "after_each_api_call",
+    "alert_thresholds": {
+      "daily_cost_warning": 3.0,
+      "daily_cost_critical": 4.5,
+      "daily_cost_emergency": 5.0,
+      "rate_limit_warning": 0.8,
+      "rate_limit_critical": 0.9
+    }
+  },
+  "history": [
+    {
+      "timestamp": "2026-03-27T11:52:00Z",
+      "event": "session_start",
+      "details": "AI Empire foundation building",
+      "estimated_tokens": 50000,
+      "estimated_cost_usd": 0.007
+    },
+    {
+      "timestamp": "2026-03-27T12:26:00Z",
+      "event": "session_end",
+      "details": "Intel Bot v1 deployed, research generated",
+      "estimated_tokens": 75000,
+      "estimated_cost_usd": 0.0105
+    },
+    {
+      "timestamp": "2026-03-27T12:38:00Z",
+      "event": "session_start",
+      "details": "Telegram coordination, memory management",
+      "estimated_tokens": 60000,
+      "estimated_cost_usd": 0.0084
+    }
+  ]
+}
